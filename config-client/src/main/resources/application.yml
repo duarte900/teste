@@ -1,3 +1,9 @@
 spring:
   application:
     name: config-client
+  cloud:
+    config:
+      token: myroot
+      uri: http://localhost:8888
+      fail-fast: true
+    enabled: true
