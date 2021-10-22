@@ -6,12 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RefreshScope
-@RequestMapping("/")
 @RestController
 public class MessageResource {
 
-	@Value("${message: Default Hello}")
+	@Value("${message: Default Hello!!!}")
 	private String message;
 	
 	@GetMapping("/")
