@@ -4,6 +4,6 @@ spring:
   cloud:
     config:
       token: myroot
-      uri: http://config-server-duarte90-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/
+      uri: http://172.30.82.98/8080
       fail-fast: false
     enabled: true
