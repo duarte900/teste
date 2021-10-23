@@ -5,5 +5,5 @@ spring:
     config:
       token: myroot
       uri: http://config-server-duarte90-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/
-      fail-fast: true
+      fail-fast: false
     enabled: true
