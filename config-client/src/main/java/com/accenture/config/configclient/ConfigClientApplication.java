@@ -19,10 +19,6 @@ public class ConfigClientApplication {
 		return message;
 	}
 	
-	@GetMapping("/{input}")
-	public String congrats(@PathVariable String input) {
-		return "hi" + input + " bla bla";
-	}
 	
 	public static void main(String[] args) {
 		SpringApplication.run(ConfigClientApplication.class, args);
