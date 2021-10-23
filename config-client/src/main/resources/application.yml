@@ -4,6 +4,6 @@ spring:
   cloud:
     config:
       token: myroot
-      uri: http://localhost:8888
+      uri: config-server
       fail-fast: true
     enabled: true
