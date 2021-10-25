@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: config-server
+    name: configserver
   cloud:
     config:
       server:
@@ -12,5 +12,3 @@ spring:
           ignore-local-ssh-settings: true
           default-label: teste
           searchPaths: Properties*
-  profiles:
-    active: dev
