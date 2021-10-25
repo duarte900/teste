@@ -12,3 +12,5 @@ spring:
           ignore-local-ssh-settings: true
           default-label: teste
           searchPaths: Properties*
+  profiles:
+    active: dev
